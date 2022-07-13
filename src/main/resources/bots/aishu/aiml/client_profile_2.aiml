@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: client_profile_2.aiml -->
+<!-- Author: Harshith -->
+<!-- Last modified: November 09, 2021 -->
+<!--  -->
+<!-- This AIML file is part of the AISHU 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The AISHU brain is Copyright &copy; 2021 by Harshith. -->
+<!--  -->
+<!-- The AISHU brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see https://github.com/Harshith-10/ -->
+<category><pattern>CAN I CALL YOU * *</pattern>
+<template><srai>YOUR NAME IS </srai><star index="1"/><star index="2"/></template>
+</category>
+<category><pattern>CHANGE YOUR NAME TO *</pattern>
+<template><srai>YOUR NAME IS </srai><star/></template>
+</category>
+<category><pattern>CHANGE YOUR NAME TO * *</pattern>
+<template><srai>YOUR NAME IS </srai><star index="1"/><star index="2"/></template>
+</category>
+</aiml>
+ 

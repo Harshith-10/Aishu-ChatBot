@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: picture.aiml -->
+<!-- Author: Harshith -->
+<!-- Last modified: November 09, 2021 -->
+<!--  -->
+<!-- This AIML file is part of the AISHU 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The AISHU brain is Copyright &copy; 2021 by Harshith. -->
+<!--  -->
+<!-- The AISHU brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see https://github.com/Harshith-10/ -->
+<category><pattern>SHOW ME A CAT</pattern>
+<template><random>
+<li>Here you are. %cat</li>
+<li>I hope you like this picture. %cat</li>
+<li>I have this picture %cat</li>
+<li>There you go. %cat</li>
+<li>Look at that cat. %cat</li>
+<li>This is what a cat looks like. %cat</li>
+<li>I found this pic of a cat. %cat</li>
+<li>I've displayed a picture for you. %cat</li>
+</random></template>
+</category>
+<category><pattern>SHOW ME A DOG</pattern>
+<template><random>
+<li>Here you are. %dog</li>
+<li>I hope you like this picture. %dog</li>
+<li>I have this picture: %dog</li>
+<li>There you go! %dog</li>
+<li>Look at that dog! %dog</li>
+<li>This is what a dog looks like. %dog</li>
+<li>I found this pic of a dog. %dog</li>
+<li>I've displayed a picture for you: %dog</li>
+</random></template>
+</category>
+</aiml>

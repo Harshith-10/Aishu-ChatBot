@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'com.hdr.aishu'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.javacord:javacord:3.4.0'
+    implementation 'joda-time:joda-time:2.10.14'
+    implementation 'org.json:json:20220320'
+    implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+test {
+    useJUnitPlatform()
+}

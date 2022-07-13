@@ -1,0 +1,3 @@
+0,CAN I CALL YOU * *,*,*,<srai>YOUR NAME IS </srai><star index="1"/><star index="2"/>,client_profile_2.aiml
+0,CHANGE YOUR NAME TO *,*,*,<srai>YOUR NAME IS </srai><star/>,client_profile_2.aiml
+0,CHANGE YOUR NAME TO * *,*,*,<srai>YOUR NAME IS </srai><star index="1"/><star index="2"/>,client_profile_2.aiml

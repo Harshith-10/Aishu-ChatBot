@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: update.aiml -->
+<!-- Author: Harshith -->
+<!-- Last modified: November 09, 2021 -->
+<!--  -->
+<!-- This AIML file is part of the AISHU 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The AISHU brain is Copyright &copy; 2021 by Harshith. -->
+<!--  -->
+<!-- The AISHU brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see https://github.com/Harshith-10/ -->
+<category><pattern>VERSION</pattern>
+<template>Aishu AIML Bot version 0.0.4</template>
+</category>
+<category><pattern>BUILD</pattern>
+<template>Tue Nov 09 19:47:39 IST 2021</template>
+</category>
+<category><pattern>DELEVLOPMENT ENVIRONMENT</pattern>
+<template>Program AB 0.0.4.2 beta -- AI Foundation Reference AIML 2.0 implementation</template>
+</category>
+</aiml>
