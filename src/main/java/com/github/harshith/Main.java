@@ -22,6 +22,7 @@ public class Main {
         String action = "chat";
 
         String token = "Your Bot Token";
+
         DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
 
         Graphmaster.enableShortCuts = true;
