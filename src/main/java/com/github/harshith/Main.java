@@ -21,7 +21,7 @@ public class Main {
         String botName = "aishu";
         String action = "chat";
 
-        String token = "OTAzMTM3OTgyMDI0OTIxMDg4.GGld5r.JZHCSt7Y_CrBM7qkGXIWVz6AsPrDrXj2Iwqs2U";
+        String token = "Your Bot Token";
         DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
 
         Graphmaster.enableShortCuts = true;
